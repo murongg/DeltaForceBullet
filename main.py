@@ -162,7 +162,7 @@ class WindowSelector(QWidget):
         main_layout.addWidget(info_group)
 
         self.setLayout(main_layout)
-        self.setWindowTitle('牛角洲倒子弹大师v0.2 交流QQ群：885499673')
+        self.setWindowTitle('牛角洲倒子弹大师v0.3 交流QQ群：885499673')
         self.setWindowIcon(QIcon(ICON_PATH))
         self.setGeometry(300, 300, 500, 600)
 
