@@ -1,0 +1,1 @@
+ pyinstaller --name "牛角洲倒子弹大师v0.2" --add-data ".\*.ini;." --add-data ".\resources;resources" --icon ".\resources\images\favicon.ico" --windowed --noconfirm --additional-hooks .\hooks --collect-all paddle --collect-all paddleocr --collect-all tqdm .\main.py
